@@ -1,0 +1,11 @@
+# Funding agency logos, shown on the About page.
+# Each entry needs: image (filename in images/), url
+# Recommended logo size: max-height 80px
+
+# EXAMPLE -- replace or delete
+- image: 05_Arpae_rgb.jpg
+  url: https://www.arpae.it/it
+- image: RER25.png
+  url: https://www.regione.emilia-romagna.it/
+- image: logo_de_asl_roma.png
+  url: https://deplazio.it/

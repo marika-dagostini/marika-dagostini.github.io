@@ -1,0 +1,149 @@
+// =============================================================
+// Dark mode — Bootstrap 5.3 color-mode overrides
+// =============================================================
+
+[data-bs-theme="dark"] {
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+
+  a {
+  color: #fdfdfdf4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fdfdfdf5;
+  text-decoration: none;
+}
+
+
+.timeline-date {
+  display: block;
+  margin: 0.5rem 0 0 0;
+  font-weight: 700;
+  color: #d4d1d1f6;
+}
+
+.timeline-place {
+  margin: 0 0 0.5rem 0;
+  color: #d4d1d1f6;
+}
+
+.timeline-text {
+  margin: 0 0 0 0;
+  color: #d4d1d1f6;
+}
+
+.pub-meta {
+  font-size: 0.8rem;
+  margin-bottom: 0.9rem;
+  color: #d4d1d1f6;
+}
+
+  .pub-filter-btn {
+  background: none;
+  border: 0;
+  padding: 0 1.5rem 0 0;
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #cbc9c9;
+  border-bottom: 0px solid transparent;
+}
+
+.talk-meta {
+  font-size: 0.8rem;
+  margin-bottom: 0.9rem;
+  color: #d4d1d1f6;
+}
+
+  .talk-filter-btn {
+  background: none;
+  border: 0;
+  padding: 0 1.5rem 0 0;
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #cbc9c9;
+  border-bottom: 0px solid transparent;
+}
+
+  // Slightly reduce image brightness in dark mode
+  .profile-photo,
+  .team-photo,
+  .pi-photo {
+    filter: brightness(0.92);
+  }
+
+  .talk-card {
+  background: #474141b0;
+  border-radius: 24px;
+  padding: 1.1rem;
+}
+
+  .pub-card {
+  background: #474141b0;
+  border-radius: 24px;
+  padding: 1.1rem;
+}
+
+.talk-intro {
+  margin: 1rem 0rem 2rem 1rem;
+  font-size: 0.9rem;
+  color:#cbc9c9;
+}
+
+.talk-filter-btn.active {
+  color: #a01813e1;
+  border-bottom-color: #a01813e1;
+  font-weight: 700
+  ;
+}
+
+.pub-filter-btn.active {
+  color: #a01813e1;
+  border-bottom-color: #a01813e1;
+  font-weight: 700
+  ;
+}
+
+.timeline-degree {
+  margin: 0 0 0.1rem 0;
+  font-weight: 600;
+  color: #dfd9d9;
+  line-height: 1;
+}
+
+.icon-link{
+  color: #cbc9c9;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -0.15rem;
+  top: 0.2rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #a01813e1;
+  box-shadow: 0 0 0 5px #f3ebeb;
+}
+
+  // MathJax SVG equations — force light color
+  mjx-container svg {
+    color: var(--text-primary) !important;
+  }
+
+  mjx-container {
+    color: var(--text-primary) !important;
+  }
+
+  // MathJax equation reference links
+  .MathJax_ref,
+  .MathJax a,
+  mjx-container a {
+    color: var(--accent) !important;
+  }
+}

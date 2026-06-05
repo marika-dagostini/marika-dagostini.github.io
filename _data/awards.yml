@@ -1,0 +1,25 @@
+# Awards and honors, shown on the About page.
+# Each entry needs: name
+- role: "Visiting PhD Student"
+  year: "2025"
+  place: "Department of Epidemiology, Lazio Regional Health Service (Rome, Italy)"
+
+- role: "Research Fellow"
+  year: "2023"
+  place: "Department of Medical and Surgical Sciences, University of Bologna (Bologna, Italy)"
+
+- role: "Data Scientist"
+  year: "2021 — 2023"
+  place: "SIS-TER s.r.l. SB (Imola, Italy)"
+
+- role: "Intern"
+  year: "2020"
+  place: "ISTAT - Italian National Institute of Statistics (Rome, Italy)"
+
+- role: "Erasmus+ MSc Student"
+  year: "2019"
+  place: "Department of Mathematics, Aarhus University (Aarhus, Denmark)"
+
+- role: "Intern"
+  year: "2018"
+  place: "Dolomiti Bellunesi National Park Authority (Feltre, Italy)"

@@ -1,0 +1,14 @@
+# Optional: detailed education and bio for the About page.
+# Basic info (name, photo, links) now lives in _config.yml.
+# Delete this file if you only need the basics.
+
+# EXAMPLE -- replace or delete
+#- education:
+#    - "(current) PhD in Statistical Sciences, University of Padova"
+#    - "(2022) 2nd Level Master in Geostatistics for Human, Animal and Environmental Health, University of Padova"
+#    - "(2020) MSc in Statistical Sciences, University of Bologna"
+#    - "(2018) BSc in Statistical Sciences, University of Bologna"
+#  educationshort:
+#    - "(2022) 2nd Level Master Geostatistics, University of Padova"
+#    - "(2020) MSc Statistical Sciences, University of Bologna"
+#    - "(2018) BSc Statistical Sciences, University of Bologna"
