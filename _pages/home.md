@@ -28,7 +28,6 @@ My PhD scholarship is funded by [ARPAE](https://www.arpae.it/it) within the proj
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-calendar callout-icon"></i> Next Talks</div>
 <p><ul>
-<li>June 17–19: <b>GEOMED</b>, Pamplona (Spain)</li>
 <li>June 22–25: <b>SIS-FENStatS</b>, Rome (Italy)</li>
 </ul></p>
 </div>
