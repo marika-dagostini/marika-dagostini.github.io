@@ -24,11 +24,11 @@ I am currently a **PhD student in Statistical Sciences** at the [University of B
 
 My research focuses on how statistical models can help describe, understand, and communicate the health effects of environmental and climate-related exposures, particularly when these effects vary across space and populations. I am especially interested in the role of **statistics as a bridge between complex data and public health decisions**, and in developing methods that are both rigorous and interpretable.
 
-My PhD scholarship is funded by [ARPAE](https://www.arpae.it/it) within the project *[“Health and Equity Co-Benefits in Support of Plans to Respond to Climate Change in Italy”](https://climaesalute.it/)*, part of the Italian National Plan for Complementary Investments of the Ministry of Health.
+The PhD scholarship is funded by [ARPAE](https://www.arpae.it/it) within the project *[“Health and Equity Co-Benefits in Support of Plans to Respond to Climate Change in Italy”](https://climaesalute.it/)*, part of the Italian National Plan for Complementary Investments of the Ministry of Health.
 
-In addition to my research, I am a **teaching tutor** for the Bayesian Inference course led by [Daniela Cocchi](https://www.unibo.it/sitoweb/daniela.cocchi/en).
+Alongside research, I am a **teaching tutor** for the Bayesian Inference course led by [Daniela Cocchi](https://www.unibo.it/sitoweb/daniela.cocchi/en).
 
-This website collects my publications, research updates, and materials from conference presentations and seminars, as well as information about the projects and topics I am currently working on. **I hope you enjoy looking around!**
+Here you’ll find publications, research updates, and materials from conferences and seminars, together with a glimpse of the projects and topics I am currently working on. **I hope you enjoy looking around!**
 
 
 
