@@ -27,7 +27,7 @@
 <div class="section-card" style="margin-top: var(--space-6);">
 <h4 style="margin-top: 0;">News</h4>
 <div class="news-timeline">
-{% for article in site.data.news limit:1 %}
+{% for article in site.data.news limit:2 %}
 <div class="news-item">
         <span class="news-date">{{ article.date }}</span><br><br>
         <span class="news-headline">{{ article.headline }}&nbsp;<a href="{{ article.link_url }}">{{ article.link_text }}</a> {{ article.headlines }}</span>
