@@ -26,89 +26,101 @@ permalink: /publications/
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const select = document.querySelector('[data-select]');
-  const selectItems = document.querySelectorAll('[data-select-item]');
-  const selectValue = document.querySelector('[data-selecct-value]');
-  const filterBtns = document.querySelectorAll('[data-filter-btn]');
-  const filterItems = document.querySelectorAll('[data-filter-item]');
+  const pubFilterButtons =
+    document.querySelectorAll('[data-pub-filter]');
 
-  function applyFilter(selectedValue) {
-    const value = selectedValue.toLowerCase().trim();
+  const pubCards =
+    document.querySelectorAll('[data-pub-category]');
 
-    filterItems.forEach(function (item) {
-      const category = (item.dataset.category || '').toLowerCase().trim();
-      item.classList.toggle('active', value === 'all' || value === category);
+  const pubSearch =
+    document.getElementById('pubSearch');
+
+  let activeCategory = 'all';
+  let activeQuery = '';
+
+  function renumberVisibleCards() {
+    const visibleCards = Array.from(pubCards).filter(function (card) {
+      return card.style.display !== 'none';
     });
 
-    filterBtns.forEach(function (btn) {
-      const btnValue = btn.textContent.toLowerCase().trim();
-      btn.classList.toggle('active', btnValue === value);
-    });
+    visibleCards.forEach(function (card, index) {
+      let number = card.querySelector('.card-number');
 
-    if (selectValue) {
-      const activeBtn = Array.from(filterBtns).find(btn => btn.classList.contains('active'));
-      if (activeBtn) selectValue.textContent = activeBtn.textContent.trim();
-    }
-  }
+      if (!number) {
+        number = document.createElement('span');
+        number.className = 'card-number';
+        card.prepend(number);
+      }
 
-  if (select) {
-    select.addEventListener('click', function (e) {
-      e.preventDefault();
-      this.classList.toggle('active');
+      number.textContent = (visibleCards.length - index) + '.';
     });
   }
 
-  selectItems.forEach(function (item) {
-    item.addEventListener('click', function (e) {
-      e.preventDefault();
-      applyFilter(this.textContent);
-      if (select) select.classList.remove('active');
+  function updatePublications() {
+    pubCards.forEach(function (card) {
+      const cardCategory = (
+        card.getAttribute('data-pub-category') || ''
+      ).toLowerCase().trim();
+
+      const cardText = card.textContent.toLowerCase();
+
+      const matchesCategory =
+        activeCategory === 'all' ||
+        cardCategory === activeCategory;
+
+      const matchesSearch =
+        activeQuery === '' ||
+        cardText.includes(activeQuery);
+
+      card.style.display =
+        matchesCategory && matchesSearch ? '' : 'none';
+    });
+
+    pubFilterButtons.forEach(function (button) {
+      const buttonCategory = (
+        button.getAttribute('data-pub-filter') || ''
+      ).toLowerCase().trim();
+
+      button.classList.toggle(
+        'active',
+        buttonCategory === activeCategory
+      );
+    });
+
+    renumberVisibleCards();
+  }
+
+  pubFilterButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      activeCategory = (
+        this.getAttribute('data-pub-filter') || 'all'
+      ).toLowerCase().trim();
+
+      updatePublications();
     });
   });
 
-  filterBtns.forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
-      applyFilter(this.textContent);
+  if (pubSearch) {
+    pubSearch.addEventListener('input', function () {
+      activeQuery = this.value.toLowerCase().trim();
+      updatePublications();
     });
-  });
+  }
 
-  applyFilter('All');
+ // Highlight your name and publication years.
+document.querySelectorAll('.pub-meta').forEach(function (element) {
+  element.innerHTML = element.innerHTML
+    .replace(
+      /D'Agostini M/g,
+      "<strong>D'Agostini M</strong>"
+    )
+    .replace(
+      /\b(?:19|20)\d{2}\b/g,
+      '<strong class="pub-year">$&</strong>'
+    );
 });
 
-  // ----- Publications Category Filter -----
-
-  var pubFilterButtons = document.querySelectorAll('[data-pub-filter]');
-  var pubCards = document.querySelectorAll('[data-pub-category]');
-
-  function applyPubFilter(category) {
-    pubCards.forEach(function (card) {
-      var cardCategory = (card.getAttribute('data-pub-category') || '').toLowerCase();
-      var matches = category === 'all' || cardCategory === category;
-      card.style.display = matches ? '' : 'none';
-    });
-
-    pubFilterButtons.forEach(function (btn) {
-      btn.classList.toggle('active', btn.getAttribute('data-pub-filter') === category);
-    });
-  }
-
-  if (pubFilterButtons.length) {
-    pubFilterButtons.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        applyPubFilter(this.getAttribute('data-pub-filter'));
-      });
-    });
-
-    applyPubFilter('all');
-  }
-
-  // ----- Highlight my name in publications -----
-
-document.querySelectorAll('.pub-meta').forEach(function (el) {
-  el.innerHTML = el.innerHTML.replace(
-    /D'Agostini M/g,
-    "<strong>D'Agostini M</strong>"
-  );
+  // Initial filtering and numbering.
+  updatePublications();
 });
 </script>

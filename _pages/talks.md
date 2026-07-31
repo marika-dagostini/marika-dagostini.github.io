@@ -33,23 +33,53 @@ document.addEventListener('DOMContentLoaded', function () {
   let activeCategory = 'all';
   let activeQuery = '';
 
+  function renumberVisibleCards(cards) {
+  const visibleCards = Array.from(cards).filter(function (card) {
+    return card.style.display !== 'none';
+  });
+
+  visibleCards.forEach(function (card, index) {
+    let number = card.querySelector('.card-number');
+
+    if (!number) {
+      number = document.createElement('span');
+      number.className = 'card-number';
+      card.prepend(number);
+    }
+
+    number.textContent = (visibleCards.length - index) + '.';
+  });
+};
+
   function updateTalks() {
-    talkCards.forEach(function (card) {
-      const category = (card.getAttribute('data-talk-category') || '').toLowerCase().trim();
-      const text = card.textContent.toLowerCase();
-      const matchesCategory = activeCategory === 'all' || category === activeCategory;
-      const matchesSearch = activeQuery === '' || text.includes(activeQuery);
+  talkCards.forEach(function (card) {
+    const category = (
+      card.getAttribute('data-talk-category') || ''
+    ).toLowerCase().trim();
 
-      card.style.display = (matchesCategory && matchesSearch) ? '' : 'none';
-    });
+    const text = card.textContent.toLowerCase();
 
-    talkFilterButtons.forEach(function (btn) {
-      btn.classList.toggle(
-        'active',
-        btn.getAttribute('data-talk-filter') === activeCategory
-      );
-    });
-  }
+    const matchesCategory =
+      activeCategory === 'all' ||
+      category === activeCategory;
+
+    const matchesSearch =
+      activeQuery === '' ||
+      text.includes(activeQuery);
+
+    card.style.display =
+      matchesCategory && matchesSearch ? '' : 'none';
+  });
+
+  talkFilterButtons.forEach(function (btn) {
+    btn.classList.toggle(
+      'active',
+      btn.getAttribute('data-talk-filter') === activeCategory
+    );
+  });
+
+  renumberVisibleCards(talkCards);
+}
 
   if (talkSearch) {
     talkSearch.addEventListener('input', function () {
@@ -75,5 +105,18 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   updateTalks();
+});
+
+// Highlight your name and publication years.
+document.querySelectorAll('.talk-meta').forEach(function (element) {
+  element.innerHTML = element.innerHTML
+    .replace(
+      /D'Agostini M/g,
+      "<strong>D'Agostini M</strong>"
+    )
+    .replace(
+      /\b(?:19|20)\d{2}\b/g,
+      '<strong class="pub-year">$&</strong>'
+    );
 });
 </script>

@@ -81,10 +81,27 @@
   justify-content: center;
 
   &:hover {
-    color: var(--accent);
-    border-color: var(--accent);
+    color: #f7aeab;
+    border-color: #f7aeab;
     background-color: var(--accent-light);
   }
+
+  &.active {
+    color: #f7aeab !important;
+    position: relative;
+
+  &::after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: var(--space-3);
+      right: var(--space-3);
+      height: 2px;
+      background-color: var(--accent);
+      border-radius: 1px;
+    }
+}
+
 }
 
 // Mobile menu

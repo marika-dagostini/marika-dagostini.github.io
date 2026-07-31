@@ -8,15 +8,14 @@
   }
 
   a {
-  color: #fdfdfdf4;
+  color: #f7aeab;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fdfdfdf5;
+  color: var(--accent);
   text-decoration: none;
 }
-
 
 .timeline-date {
   display: block;
@@ -35,22 +34,95 @@ a:hover {
   color: #d4d1d1f6;
 }
 
-.pub-meta {
+.timeline-degree {
+  margin: 0 0 0.1rem 0;
+  font-weight: 600;
+  color: #f7aeab;
+  line-height: 1;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -0.15rem;
+  top: 0.2rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 5px #f3ebeb;
+}
+
+.card-number {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 1.75rem;
+  text-align: right;
   font-size: 0.8rem;
-  margin-bottom: 0.9rem;
+  font-weight: 700;
+  line-height: 1.55;
   color: #d4d1d1f6;
 }
 
-  .pub-filter-btn {
-  background: none;
-  border: 0;
-  padding: 0 1.5rem 0 0;
-  font: inherit;
-  font-size: 1.1rem;
-  cursor: pointer;
-  color: #cbc9c9;
-  border-bottom: 0px solid transparent;
+.pub-card {
+background: #474141b0;
+border-radius: 24px;
+position: relative;
+padding: 1.25rem 4rem 1.25rem 4rem;
 }
+
+.pub-card > a:hover .pub-title { color: #f7aeab}
+
+.pub-intro {
+  color:#f7aeab;
+}
+
+.pub-meta {
+  display: block;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  white-space: normal;
+  color: #d4d1d1f6
+}
+
+.pub-year {
+  color: #f7aeab;
+  font-weight: 500;
+}
+
+.pub-filter-btn {
+background: none;
+border: 0;
+padding: 0 1.5rem 0 0;
+font: inherit;
+font-size: 1.1rem;
+cursor: pointer;
+color: #cbc9c9;
+border-bottom: 0px solid transparent;
+}
+
+.pub-filter-btn.active {
+  color: #f7aeab;
+  border-bottom-color: var(--accent);
+}
+
+.talk-card {
+background: #474141b0;
+border-radius: 24px;
+position: relative;
+padding: 1.25rem 4rem 1.25rem 4rem;
+}
+
+
+.talk-intro {
+  margin: 1rem 0rem 2rem 1rem;
+  font-size: 0.9rem;
+  color:#f7aeab;
+}
+
+.talk-card > a:hover .talk-title { color: #f7aeab}
 
 .talk-meta {
   font-size: 0.8rem;
@@ -69,6 +141,72 @@ a:hover {
   border-bottom: 0px solid transparent;
 }
 
+.talk-filter-btn.active {
+  color: #f7aeab;
+  border-bottom-color: var(--accent);
+  font-weight: 700
+  ;
+}
+
+
+.icon-link{
+  color: #f3f3f3b0;
+}
+
+.chip {
+  background-color: var(--accent-light);
+  color: #fff;
+  border: 1px solid var(--accent);
+  &:hover {
+    background-color: var(--accent);
+    color: #fff;
+  }
+
+  // Muted variant for non-linked chips
+  &.chip-muted {
+    background-color: var(--bg-secondary);
+    color: #fff;
+    border-color: #f7aeab;
+
+    &:hover {
+      background-color: var(--border-color);
+      color: #fff;
+    }
+  }
+}
+
+.chip-cards {
+  background-color: var(--accent-light);
+  color: #fff;
+  border: 1px solid #f7aeab;
+}
+
+.nav-link {
+  color: var(--text-secondary) !important;
+
+  &:hover {
+    color: var(--accent) !important;
+    background-color: var(--accent-light);
+  }
+
+  &.active {
+    color: #f7aeab !important;
+
+  }
+}
+
+.site-footer {p, a {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    line-height: 1.9;
+  }
+
+  a:hover {
+    color: var(--accent);
+  }
+
+}
+
   // Slightly reduce image brightness in dark mode
   .profile-photo,
   .team-photo,
@@ -76,60 +214,6 @@ a:hover {
     filter: brightness(0.92);
   }
 
-  .talk-card {
-  background: #474141b0;
-  border-radius: 24px;
-  padding: 1.1rem;
-}
-
-  .pub-card {
-  background: #474141b0;
-  border-radius: 24px;
-  padding: 1.1rem;
-}
-
-.talk-intro {
-  margin: 1rem 0rem 2rem 1rem;
-  font-size: 0.9rem;
-  color:#cbc9c9;
-}
-
-.talk-filter-btn.active {
-  color: #a01813e1;
-  border-bottom-color: #a01813e1;
-  font-weight: 700
-  ;
-}
-
-.pub-filter-btn.active {
-  color: #a01813e1;
-  border-bottom-color: #a01813e1;
-  font-weight: 700
-  ;
-}
-
-.timeline-degree {
-  margin: 0 0 0.1rem 0;
-  font-weight: 600;
-  color: #dfd9d9;
-  line-height: 1;
-}
-
-.icon-link{
-  color: #cbc9c9;
-}
-
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -0.15rem;
-  top: 0.2rem;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #a01813e1;
-  box-shadow: 0 0 0 5px #f3ebeb;
-}
 
   // MathJax SVG equations — force light color
   mjx-container svg {
