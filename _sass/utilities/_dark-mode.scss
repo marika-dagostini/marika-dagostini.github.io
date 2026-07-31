@@ -181,6 +181,16 @@ padding: 1.25rem 4rem 1.25rem 4rem;
   border: 1px solid #f7aeab;
 }
 
+ a.chip-cards:not([href]),
+  a.chip-cards:not([href]):hover,
+  a.chip-cards:not([href]):focus {
+    color: #fff;
+    background-color: var(--accent-light);
+    text-decoration: none;
+    background-image: none !important;
+    cursor: default;
+  }
+
 .nav-link {
   color: var(--text-secondary) !important;
 
