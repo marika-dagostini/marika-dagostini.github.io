@@ -12,7 +12,7 @@ permalink: /publications/
   <i class="fa-solid fa-hand-point-right"></i>
   Click on a publication to read the full paper
 </p>
-<input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, first author, or year...">
+<input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
 <div class="pub-filters">
   <button type="button" class="pub-filter-btn active" data-pub-filter="all">All</button>
@@ -107,8 +107,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.querySelectorAll('.pub-meta').forEach(function (el) {
   el.innerHTML = el.innerHTML.replace(
-    /D'Agostini, M./g,
-    "<strong>D'Agostini, M.</strong>"
+    /D'Agostini M/g,
+    "<strong>D'Agostini M</strong>"
   );
 });
 </script>

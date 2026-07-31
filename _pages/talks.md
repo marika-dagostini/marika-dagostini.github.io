@@ -12,7 +12,7 @@ permalink: /talks/
   <i class="fa-solid fa-hand-point-right"></i>
   Click on a talk to view slides, posters, or additional material
 </p>
-<input type="text" class="pub-search" id="talkSearch" placeholder="Filter by title, location, or year...">
+<input type="text" class="pub-search" id="talkSearch" placeholder="Filter by title, location, topic, or year...">
 
 <div class="talk-filters">
   <button type="button" class="talk-filter-btn active" data-talk-filter="all">All</button>

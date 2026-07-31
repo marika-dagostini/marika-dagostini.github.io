@@ -72,12 +72,12 @@ permalink: /about/
 </div>
 
 
-{% if site.data.awards %}
+{% if site.data.cv %}
 <div class="section-card">
-<h3>Experience</h3>
+<h3>Research & Work Experience</h3>
 <section class="timeline">
   <ol class="timeline-list">
-    {% for job in site.data.awards %}
+    {% for job in site.data.cv %}
     <li class="timeline-item">
       <h4 class="timeline-degree">{{ job.role }}</h4>
       <span class="timeline-date">{{ job.year }}</span>

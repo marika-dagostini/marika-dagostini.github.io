@@ -11,9 +11,9 @@ permalink: /
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Hierarchical Models</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Approximate Bayesian Inference</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Disease Mapping</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Spatial & Environmental Epidemiology</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Composite Indicators</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Urban & Environmental Studies</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Environmental & Occupational Epidemiology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Tourism Analytics</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Geospatial Data Visualization</a>
 </div>
 

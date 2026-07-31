@@ -44,6 +44,30 @@
   }
 }
 
+.chip-cards {
+  display: inline-block;
+  padding: 0.25rem 0.875rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-full);
+  background-color: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  background-image: none !important;
+  padding-bottom: 0.25rem;
+  margin-top: 1.3em;
+}
+
+.chip-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
 // Highlight callout — eye-catching announcement box
 .callout {
   border-left: 4px solid var(--accent);
