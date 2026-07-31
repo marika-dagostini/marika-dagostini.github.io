@@ -159,7 +159,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 .pub-filters {
   display: flex;
   gap: 1.25rem;
-  margin: 1.5rem 0 2rem;
+  margin: 1rem 0rem 2rem 1rem;
   flex-wrap: wrap;
 }
 
@@ -206,10 +206,10 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 
 .pub-meta {
   font-size: 0.8rem;
-  margin-bottom: 0.9rem;
   color: #302929;
   line-height: 1.55;
   width: 100%;
+  margin-bottom: 0.8rem;
 }
 
 .pub-title {
@@ -218,13 +218,15 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: -0.015em;
+  margin-top: 0rem;
+  margin-bottom: 0.8rem;
 }
 
 .pub-venue {
+  margin-top: 0rem;
   font-size: 0.8rem;
-  margin: 0;
+  margin-bottom: 0.95rem;
   line-height: 1.4rem;
-   margin-top: 0.8rem;
 }
 
 .pub-grid {
@@ -255,8 +257,8 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 .talk-filters {
   display: flex;
   gap: 1.25rem;
-  margin: 1.5rem 0 2rem;
   flex-wrap: wrap;
+  margin: 1rem 0rem 2rem 1rem;
 }
 
 .talk-filter-btn {
@@ -305,6 +307,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   margin-bottom: 0.9rem;
   color: #302929;
   line-height: 1.55;
+  margin-bottom: 0.8rem;
 }
 
 .talk-title {
@@ -313,12 +316,14 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: -0.015em;
+  margin-bottom: 0.8rem;
 }
 
 .talk-venue {
   font-size: 0.8rem;
-  margin: 0;
+  margin-top: 0rem;
   line-height: 1.1rem;
+  margin-bottom: 0.95rem;
 }
 
 .talk-grid {
