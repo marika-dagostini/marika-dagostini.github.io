@@ -112,7 +112,19 @@ document.querySelectorAll('.pub-meta').forEach(function (element) {
   element.innerHTML = element.innerHTML
     .replace(
       /D'Agostini M/g,
-      "<strong>D'Agostini M</strong>"
+      '<strong class="pub-name">$&</strong>'
+    )
+    .replace(
+      /\b(?:19|20)\d{2}\b/g,
+      '<strong class="pub-year">$&</strong>'
+    );
+});
+
+document.querySelectorAll('.pub-venue').forEach(function (element) {
+  element.innerHTML = element.innerHTML
+    .replace(
+      /D'Agostini M/g,
+      '<strong class="pub-name">$&</strong>'
     )
     .replace(
       /\b(?:19|20)\d{2}\b/g,

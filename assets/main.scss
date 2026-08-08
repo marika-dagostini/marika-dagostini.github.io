@@ -204,11 +204,10 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   text-decoration: none;
 }
 
-.pub-meta {
+.pub-venue {
   font-size: 0.8rem;
   color: #302929;
   line-height: 1.55;
-  width: 100%;
   margin-bottom: 0.8rem;
 }
 
@@ -222,7 +221,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   margin-bottom: 0.8rem;
 }
 
-.pub-venue {
+.pub-meta {
   margin-top: 0rem;
   font-size: 0.8rem;
   margin-bottom: 0.95rem;
@@ -381,6 +380,14 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   white-space: normal;
 }
 
+.pub-card .pub-venue {
+  display: block;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  white-space: normal;
+}
+
 .pub-card{
   position: relative;
   padding: 1.25rem 4rem 1.25rem 4rem;
@@ -394,4 +401,9 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 .pub-year {
   color: #a01713;
   font-weight: 500;
+}
+
+.pub-name {
+  font-weight: 500;
+  color: black
 }
