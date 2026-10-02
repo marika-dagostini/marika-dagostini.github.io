@@ -20,15 +20,17 @@ permalink: /
 
 ### About me
 
-I am currently a **PhD student in Statistical Sciences** at the [University of Bologna](https://stat.unibo.it/en), where I work on Bayesian and spatial statistical methods for environmental epidemiology and public health under the supervision of [Massimo Ventrucci](https://www.unibo.it/sitoweb/massimo.ventrucci/en) and [Andrea Ranzi](https://www.unibo.it/sitoweb/andrea.ranzi/en). 
+I am currently a **PhD student in Statistical Sciences** at the [University of Bologna](https://stat.unibo.it/en), where I work on Bayesian spatio-temporal modelling for environmental and epidemiological studies under the supervision of [Massimo Ventrucci](https://www.unibo.it/sitoweb/massimo.ventrucci/en) and [Andrea Ranzi](https://www.unibo.it/sitoweb/andrea.ranzi/en). 
 
-My research focuses on how statistical models can help describe, understand, and communicate the health effects of environmental and climate-related exposures, particularly when these effects vary across space and populations. I am especially interested in the role of **statistics as a bridge between complex data and public health decisions**, and in developing methods that are both rigorous and interpretable.
+My research focuses on how statistical models can help describe, understand, and communicate the ways in which **climate change and urbanization processes affect urban environments and public health**. I am particularly interested in how environmental, climatic, and socioeconomic factors come together to shape exposure, vulnerability, and health outcomes across places and populations. More broadly, I see **statistics as a bridge between complex data and policymaking**, and I aim to develop methods that are both rigorous and easy to interpret.
 
-The PhD scholarship is funded by [ARPAE](https://www.arpae.it/it) within the project *[“Health and Equity Co-Benefits in Support of Plans to Respond to Climate Change in Italy”](https://climaesalute.it/)*, part of the Italian National Plan for Complementary Investments of the Ministry of Health.
+<!---The PhD scholarship is funded by [ARPAE](https://www.arpae.it/it) within the project *[“Health and Equity Co-Benefits in Support of Plans to Respond to Climate Change in Italy”](https://climaesalute.it/)*, part of the Italian National Plan for Complementary Investments of the Ministry of Health. -->
 
-Alongside research, I am a **teaching tutor** for the Bayesian Inference course led by [Daniela Cocchi](https://www.unibo.it/sitoweb/daniela.cocchi/en).
+Alongside research, I am a **teaching tutor** for the Bayesian Inference course led by [Daniela Cocchi](https://www.unibo.it/sitoweb/daniela.cocchi/en), and I work as a **statistical consultant** for the Emilia-Romagna Region on a project investigating the socioeconomic factors associated with an increased risk of **occupational injuries**.
 
-Here you’ll find publications, research updates, and materials from conferences and seminars, together with a glimpse of the projects and topics I am currently working on. **I hope you enjoy looking around!**
+Here you’ll find publications, research updates, and materials from conferences and seminars, along with a glimpse into the projects and questions I’m currently working on.
+ 
+**I hope you enjoy looking around!**
 
 
 
