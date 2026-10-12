@@ -22,11 +22,12 @@ permalink: /
 
 I am currently a **PhD student in Statistical Sciences** at the [University of Bologna](https://stat.unibo.it/en), where I work on Bayesian spatio-temporal modelling for environmental and epidemiological studies under the supervision of [Massimo Ventrucci](https://www.unibo.it/sitoweb/massimo.ventrucci/en) and [Andrea Ranzi](https://www.unibo.it/sitoweb/andrea.ranzi/en). 
 
-My research focuses on how statistical models can help describe, understand, and communicate the ways in which **climate change and urbanization processes affect urban environments and public health**. I am particularly interested in how environmental, climatic, and socioeconomic factors come together to shape exposure, vulnerability, and health outcomes across places and populations. More broadly, I see **statistics as a bridge between complex data and policymaking**, and I aim to develop methods that are both rigorous and easy to interpret.
+My research explores how **climate change and urbanization shape our cities and our health**, using Bayesian hierarchical models to better understand how environmental, climatic, and socioeconomic factors interact to influence exposure, vulnerability, and health inequalities across communities.
+<!---More broadly, I see **statistics as a bridge between complex data and policymaking**, and I aim to develop methods that are both rigorous and easy to interpret.
 
-<!---The PhD scholarship is funded by [ARPAE](https://www.arpae.it/it) within the project *[“Health and Equity Co-Benefits in Support of Plans to Respond to Climate Change in Italy”](https://climaesalute.it/)*, part of the Italian National Plan for Complementary Investments of the Ministry of Health. -->
+The PhD scholarship is funded by [ARPAE](https://www.arpae.it/it) within the project *[“Health and Equity Co-Benefits in Support of Plans to Respond to Climate Change in Italy”](https://climaesalute.it/)*, part of the Italian National Plan for Complementary Investments of the Ministry of Health. 
 
-Alongside research, I am a **teaching tutor** for the Bayesian Inference course led by [Daniela Cocchi](https://www.unibo.it/sitoweb/daniela.cocchi/en), and I work as a **statistical consultant** for the Emilia-Romagna Region on a project investigating the socioeconomic factors associated with an increased risk of **occupational injuries**.
+Alongside research, I am a **teaching tutor** for the Bayesian Inference course led by [Daniela Cocchi](https://www.unibo.it/sitoweb/daniela.cocchi/en), and I work as a **statistical consultant** for the Emilia-Romagna Region on a project investigating the socioeconomic factors associated with an increased risk of **occupational injuries**. -->
 
 Here you’ll find publications, research updates, and materials from conferences and seminars, along with a glimpse into the projects and questions I’m currently working on.
  
