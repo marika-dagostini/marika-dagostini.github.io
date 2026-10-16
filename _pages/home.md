@@ -10,7 +10,7 @@ permalink: /
 
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Hierarchical Models</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">R-INLA</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">INLA</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Urban & Environmental Studies</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Environmental & Occupational Epidemiology</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Tourism Analytics</a>

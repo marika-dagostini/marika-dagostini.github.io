@@ -20,7 +20,7 @@ permalink: /research/
 <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/inla.png" class="research-thumb" alt="INLA">
 <div class="research-body">
-<h4 class="research-title">R-INLA</h4>
+<h4 class="research-title">INLA</h4>
 <p class="research-desc">Development of scalable spatio-temporal Bayesian models using <strong>INLA</strong> to allow fast and accurate inference, overcoming the computational limitations of traditional MCMC methods.</p>
 </div>
 </div>
