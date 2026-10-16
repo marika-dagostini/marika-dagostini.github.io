@@ -10,7 +10,7 @@ permalink: /
 
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Hierarchical Models</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Approximate Bayesian Inference</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">R-INLA</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Urban & Environmental Studies</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Environmental & Occupational Epidemiology</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Tourism Analytics</a>
@@ -20,7 +20,7 @@ permalink: /
 
 ### About me
 
-I am currently a **PhD student in Statistical Sciences** at the [University of Bologna](https://stat.unibo.it/en), where I work on Bayesian spatio-temporal modelling for environmental and epidemiological studies under the supervision of [Massimo Ventrucci](https://www.unibo.it/sitoweb/massimo.ventrucci/en) and [Andrea Ranzi](https://www.unibo.it/sitoweb/andrea.ranzi/en). 
+I am currently a **PhD candidate in Statistical Sciences** at the [University of Bologna](https://stat.unibo.it/en), where I work on Bayesian spatio-temporal modelling for environmental and epidemiological studies under the supervision of [Massimo Ventrucci](https://www.unibo.it/sitoweb/massimo.ventrucci/en) and [Andrea Ranzi](https://www.unibo.it/sitoweb/andrea.ranzi/en). 
 
 My research focuses on how statistical models can help describe, understand, and communicate the ways in which **climate change and urbanization processes affect urban environments and public health**. I am particularly interested in how environmental, climatic, and socioeconomic factors come together to shape exposure, vulnerability, and health outcomes across places and populations. More broadly, I see **statistics as a bridge between complex data and policymaking**, and I aim to develop methods that are both rigorous and easy to interpret.
 

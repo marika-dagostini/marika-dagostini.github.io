@@ -3,9 +3,10 @@
 - title: "PhD in Statistical Sciences"
   period: "2023 — Present"
   institution: "University of Bologna"
-  topic_label: "Research Topic"
+  topic_label: "Thesis"
   topic: "Bayesian Hierarchical Models for Urban Vulnerability Assessment"
-  supervisors: "Massimo Ventrucci & Andrea Ranzi"
+  supervisor: "Massimo Ventrucci"
+  co_supervisor: "Andrea Ranzi"
 
 - title: "2nd Level Master in Geostatistics for Human, Animal, and Environmental Health"
   period: "2021 — 2022"

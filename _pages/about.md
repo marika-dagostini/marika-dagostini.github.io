@@ -64,6 +64,49 @@ permalink: /about/
         Co-Supervisors: {{ grant.co_supervisors }}
       </p>
       {% endif %}
+      {% if grant.co_supervisor %}
+      <p class="timeline-text">
+        Co-Supervisor: {{ grant.co_supervisor}}
+      </p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+</div>
+
+{% if site.data.research-fellow %}
+<div class="section-card">
+<h3>Research</h3>
+<section class="timeline">
+  <ol class="timeline-list">
+    {% for research-fellow in site.data.research-fellow %}
+    <li class="timeline-item">
+      <h4 class="timeline-degree">{{ research-fellow.title }}</h4>
+      <span class="timeline-date">{{ research-fellow.period }}</span>
+      <p class="timeline-place"><strong>{{ research-fellow.institution }}</strong></p>
+      {% if research-fellow.topic %}
+      <p class="timeline-text">
+        {{ research-fellow.topic_label | default: "Research Topic" }}:
+        <em>{{ research-fellow.topic }}</em>
+      </p>
+      {% endif %}
+      {% if research-fellow.supervisors %}
+      <p class="timeline-text">
+        Supervisors: {{ research-fellow.supervisors }}
+      </p>
+      {% endif %}
+      {% if research-fellow.supervisor %}
+      <p class="timeline-text">
+        Supervisor: {{ research-fellow.supervisor }}
+      </p>
+      {% endif %}
+      {% if research-fellow.co_supervisors %}
+      <p class="timeline-text">
+        Co-Supervisors: {{ research-fellow.co_supervisors }}
+      </p>
+      {% endif %}
     </li>
     {% endfor %}
   </ol>
@@ -72,7 +115,7 @@ permalink: /about/
 </div>
 
 
-{% if site.data.cv %}
+<!-- {% if site.data.cv %}
 <div class="section-card">
 <h3>Research & Work Experience</h3>
 <section class="timeline">
@@ -100,7 +143,7 @@ permalink: /about/
 {% endfor %}
 </ul>
 </div>
-{% endif %}
+{% endif %} --->
 
 {% if site.data.funders %}
 <div class="section-card">

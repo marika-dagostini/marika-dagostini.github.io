@@ -54,12 +54,19 @@
   border-radius: var(--radius-full);
   background-color: var(--accent-light);
   color: var(--accent);
-  border: 1px solid var(--accent);
+  border: 1px solid #9ac1a8;
   transition: all var(--transition-fast);
   text-decoration: none;
   background-image: none !important;
   padding-bottom: 0.25rem;
   margin-top: 0rem;
+}
+
+.chip-cards.chip-green {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+  border-radius: 999px;
 }
 
 .chip-cards-wrapper {

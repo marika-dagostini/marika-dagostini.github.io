@@ -186,7 +186,7 @@ padding: 1.25rem 4rem 1.25rem 4rem;
 .chip-cards {
   background-color: var(--accent-light);
   color: #fff;
-  border: 1px solid #d3a5a3;
+  border: 1px solid #4e5a52;
 }
 
  a.chip-cards:not([href]),
@@ -198,6 +198,13 @@ padding: 1.25rem 4rem 1.25rem 4rem;
     background-image: none !important;
     cursor: default;
   }
+
+  .chip-cards.chip-green {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+  border-radius: 999px;
+}
 
 .nav-link {
   color: var(--text-secondary) !important;

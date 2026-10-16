@@ -1,0 +1,30 @@
+# Grants and funding, shown on the About page.
+# Each entry needs: name
+- title: "Research Fellow"
+  period: "Nov 2026 — Present"
+  institution: "Department of Statistical Sciences — University of Bologna"
+  topic_label: "Research Topic"
+  topic: "Economic and Statistical Modeling of Tourist Flows in the Rimini Area"
+  supervisor: "Laura Vici"
+
+- title: "Visiting PhD Student"
+  period: "Mar — May 2026"
+  institution: "Directorate-General for Personal Care, Health and Welfare — Emilia-Romagna Region"
+  topic_label: "Research Topic"
+  topic: "Long-term Effects of Climate and Environmental Vulnerability"
+  supervisors: "Nicola Caranci"
+
+- title: "Visiting PhD Student"
+  period: "Sept — Nov 2025"
+  institution: "Department of Epidemiology — Lazio Regional Health Service"
+  topic_label: "Research Topic"
+  topic: "Building a Spatial Indicator of Environmental and Climatic Vulnerability"
+  supervisor: "Francesca K. de'Donato"
+
+- title: "Research Fellow"
+  period: "Jan — Oct 2023"
+  institution: "Department of Medical and Surgical Sciences — University of Bologna"
+  topic_label: "Research Topic"
+  topic: "Data Management and Analysis for WP5 of ORCHESTRA Cohort Project"
+  supervisor: "Paolo Boffetta"
+
