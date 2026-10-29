@@ -1,7 +1,7 @@
 # Grants and funding, shown on the About page.
 # Each entry needs: name
 - title: "PhD in Statistical Sciences"
-  period: "2023 — Present"
+  period: "2023 - Present"
   institution: "University of Bologna"
   topic_label: "Thesis"
   topic: "Bayesian Hierarchical Models for Urban Vulnerability Assessment"
@@ -9,14 +9,14 @@
   co_supervisor: "Andrea Ranzi"
 
 - title: "2nd Level Master in Geostatistics for Human, Animal, and Environmental Health"
-  period: "2021 — 2022"
+  period: "2021 - 2022"
   institution: "University of Padova"
   topic_label: "Thesis"
   topic: "Data Analysis of Air Quality Sensors: the Case Study of Villa Revedin-Bolasco"
   supervisor: "Francesco Pirotti"
 
 - title: "MSc in Statistical Sciences"
-  period: "2018 — 2020"
+  period: "2018 - 2020"
   institution: "University of Bologna"
   topic_label: "Thesis"
   topic: "Quantifying Land Fragmentation: an Entropy-based Approach"
@@ -24,7 +24,7 @@
   co_supervisors: "Angela Ferruzza & Giovanna Tagliacozzo"
 
 - title: "BSc in Statistical Sciences"
-  period: "2015 — 2018"
+  period: "2015 - 2018"
   institution: "University of Bologna"
   topic_label: "Thesis"
   topic: "Features of the Italian Population According to the DEGURBA Classification"

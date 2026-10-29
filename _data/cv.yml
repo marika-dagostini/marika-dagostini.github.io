@@ -1,7 +1,11 @@
 # Awards and honors, shown on the About page.
 # Each entry needs: name
+- role: "Research Fellow"
+  year: "Nov 2026 - current"
+  place: "Department of Statistical Sciences, University of Bologna (Rimini, Italy)"
+
 - role: "PhD Intern"
-  year: "Mar-JUn 2026"
+  year: "Mar-Jun 2026"
   place: "Department of Epidemiology, Emilia (Bologna, Italy)"
 
 - role: "Visiting PhD Student"

@@ -17,24 +17,30 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Geospatial Data Visualization</a>
 </div>
 
+<br>
 
-### About me
+I am a **PhD candidate in Statistical Sciences** at the [University of Bologna](https://stat.unibo.it/en), where I work on Bayesian spatio-temporal modelling for environmental and epidemiological studies under the supervision of [Massimo Ventrucci](https://www.unibo.it/sitoweb/massimo.ventrucci/en) and [Andrea Ranzi](https://www.unibo.it/sitoweb/andrea.ranzi/en).
 
-I am currently a **PhD candidate in Statistical Sciences** at the [University of Bologna](https://stat.unibo.it/en), where I work on Bayesian spatio-temporal modelling for environmental and epidemiological studies under the supervision of [Massimo Ventrucci](https://www.unibo.it/sitoweb/massimo.ventrucci/en) and [Andrea Ranzi](https://www.unibo.it/sitoweb/andrea.ranzi/en). 
+<br>
+I also hold a **Research Fellow** position under the supervision of [Laura Vici](https://www.unibo.it/sitoweb/laura.vici), applying advanced statistical methods to study **tourism dynamics**, spatial interactions, and **sustainable territorial planning** in the Rimini area.
 
-My research explores how **climate change and urbanization shape our cities and our health**, using Bayesian hierarchical models to better understand how environmental, climatic, and socioeconomic factors interact to influence exposure, vulnerability, and health inequalities across communities.
+<br>
+Here, you’ll find my publications, research updates, and materials from conferences and seminars, along with a glimpse into the projects and questions I’m currently exploring.
 
-
-
-Here you’ll find publications, research updates, and materials from conferences and seminars, along with a glimpse into the projects and questions I’m currently working on.
- 
-**I hope you enjoy looking around!**
-
-
+<br>
+**I hope you enjoy looking around!** 👋
 
 
 
-<!---<div class="callout callout-success" markdown="0">
+
+
+
+<!---
+
+My research explores how **climate change** and **urbanization** shape our cities and our health. Using Bayesian hierarchical models, I investigate how environmental, climatic, and socioeconomic factors interact to influence exposure, vulnerability, and health inequalities across communities.
+
+
+<div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-calendar callout-icon"></i> Next Talks</div>
 <p><ul>
 <li>June 22–25: <b>SIS-FENStatS</b>, Rome (Italy)</li>
