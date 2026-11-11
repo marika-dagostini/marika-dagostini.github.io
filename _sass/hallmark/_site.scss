@@ -148,9 +148,9 @@ figcaption { font: 500 var(--text-sm)/1.4 var(--font-body); color: var(--color-m
 .facts > div:last-child { border-bottom: var(--rule-hair) solid var(--color-rule); }
 .facts dt { font-size: var(--text-sm); color: var(--color-muted); padding-top: var(--space-3xs); }
 .facts dd { margin: 0; }
-.pi-figure { margin: 0; justify-self: end; width: 100%; max-width: 18rem; }
+.pi-figure { margin: 0; justify-self: end; width: 100%; max-width: #{"min(21rem, 45dvh)"}; }
 .plain-list { list-style: none; }
-@media (max-width: 60rem) { .page-head-grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-xl); } .pi-figure { justify-self: start; max-width: 14rem; } }
+@media (max-width: 60rem) { .page-head-grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-xl); } .pi-figure { justify-self: start; max-width: 16rem; } }
 
 // About: the record (Rows, head on 1 to 4 beside rows on 5 to 12)
 .record { padding-block: var(--section-gap-s); border-top: var(--rule-hair) solid var(--color-rule); }
