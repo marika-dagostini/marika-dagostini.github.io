@@ -5,24 +5,29 @@ sitemap: false
 permalink: /publications/
 ---
 
-## Publications
+<section class="page-head page-head--banner" markdown="0">
+  <div class="container">
+    <h1 id="publications">Publications</h1>
+    <p class="lead talk-intro">Click on a publication to read the full paper</p>
+  </div>
+</section>
 
-<div class="section-card" id="pubList">
-<p class="talk-intro">
-  <i class="fa-solid fa-hand-point-right"></i>
-  Click on a publication to read the full paper
-</p>
-<input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
+<section class="index-section" markdown="0">
+<div class="container section-card" id="pubList">
+<div class="index-tools">
+<input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year" aria-label="Filter publications by title, author, or year">
 
-<div class="pub-filters">
+<div class="pub-filters" role="group" aria-label="Publication type">
   <button type="button" class="pub-filter-btn active" data-pub-filter="all">All</button>
   <button type="button" class="pub-filter-btn" data-pub-filter="preprint">Preprints</button>
   <button type="button" class="pub-filter-btn" data-pub-filter="articles">Journal Articles</button>
   <button type="button" class="pub-filter-btn" data-pub-filter="proceedings">Conference Proceedings</button>
 </div>
+</div>
 
 {% include publication-cards.html %}
 </div>
+</section>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {

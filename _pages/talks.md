@@ -5,24 +5,29 @@ sitemap: false
 permalink: /talks/
 ---
 
-## Talks
+<section class="page-head page-head--banner" markdown="0">
+  <div class="container">
+    <h1 id="talks">Talks</h1>
+    <p class="lead talk-intro">Click on a talk to view slides, posters, or additional material</p>
+  </div>
+</section>
 
-<div class="section-card" id="talkList">
-<p class="talk-intro">
-  <i class="fa-solid fa-hand-point-right"></i>
-  Click on a talk to view slides, posters, or additional material
-</p>
-<input type="text" class="pub-search" id="talkSearch" placeholder="Filter by title, location, topic, or year...">
+<section class="index-section" markdown="0">
+<div class="container section-card" id="talkList">
+<div class="index-tools">
+<input type="text" class="pub-search" id="talkSearch" placeholder="Filter by title, location, topic, or year" aria-label="Filter talks by title, location, topic, or year">
 
-<div class="talk-filters">
+<div class="talk-filters" role="group" aria-label="Talk type">
   <button type="button" class="talk-filter-btn active" data-talk-filter="all">All</button>
   <button type="button" class="talk-filter-btn" data-talk-filter="conference presentations">Conference Presentations</button>
   <button type="button" class="talk-filter-btn" data-talk-filter="posters">Posters</button>
   <button type="button" class="talk-filter-btn" data-talk-filter="invited talks & seminars">Seminars</button>
 </div>
+</div>
 
 {% include talk-cards.html %}
 </div>
+</section>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
