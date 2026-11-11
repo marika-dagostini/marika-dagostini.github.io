@@ -5,7 +5,7 @@ sitemap: false
 permalink: /research/
 ---
 
-<section class="page-head page-head--banner" markdown="0">
+<section class="page-head page-head--banner page-head--tight" markdown="0">
   <div class="container">
     <h1 id="research">Research</h1>
   </div>
@@ -42,13 +42,13 @@ permalink: /research/
           <p class="research-desc">Investigation of environmental and workplace-related determinants of health through epidemiological studies and population surveillance, with applications to <strong>environmental exposure assessment</strong>, occupational exposure-outcome studies, <strong>disease mapping</strong>, and <strong>wastewater-based epidemiology</strong>.</p>
         </div>
       </article>
- <!--  <article class="research-card">
+   <article class="research-card">
         <img src="{{ site.url }}{{ site.baseurl }}/images/research/tourism.png" class="research-thumb" width="1672" height="941" alt="Tourism">
         <div class="research-body">
           <h2 class="research-title">Tourism Analytics</h2>
           <p class="research-desc">Data-driven analysis of tourism systems and visitor mobility, integrating heterogeneous data sources to identify spatial, temporal, and <strong>behavioural patterns</strong> and support <strong>sustainable destination management</strong> and territorial planning.</p>
         </div>
-      </article> -->
+      </article>
       <article class="research-card">
         <img src="{{ site.url }}{{ site.baseurl }}/images/research/datavis.png" class="research-thumb" width="1672" height="941" alt="Weak interaction diagram">
         <div class="research-body">

@@ -9,10 +9,10 @@ permalink: /about/
   <div class="container page-head-grid">
     <div class="pi-card">
       <h1 id="about">About</h1>
-      <h2 class="pi-name lead">{{ site.title }}, {{ site.institution }}</h2>
+      <h3></h3>
       <dl class="facts">
         <div><dt>Email</dt><dd><a href="mailto:{{ site.email }}">marika.dagostini2@unibo.it</a></dd></div>
-        <div><dt>Address</dt><dd><a href="https://maps.app.goo.gl/DStb48BMJA9QDtacA">Viale Quirico Filopanti 5, 40126 Bologna (Italy)</a></dd></div>
+        <div><dt>Addresses</dt><dd><a href="https://maps.app.goo.gl/DStb48BMJA9QDtacA">Viale Quirico Filopanti 5, 40126 Bologna</a></dd><dt> </dt><dd><a href="https://maps.app.goo.gl/FAZNWoknU3UYqozp6">Piazzetta Teatini 10, 47921 Rimini</a></dd></div>
       </dl>
       <ul class="pi-links icon-links">
         {% if site.links.university and site.links.university != "" %}<li><a href="{{ site.links.university }}" title="UniBO Website"><i class="ai ai-archive" aria-hidden="true"></i><span class="visually-hidden">UniBO Website</span></a></li>{% endif %}
@@ -62,7 +62,7 @@ permalink: /about/
 {% if site.data.research-fellow %}
 <section class="record record--well" markdown="0">
   <div class="container record-grid">
-    <h2>Research</h2>
+    <h2>Experience</h2>
     <ol class="timeline-list">
       {% for research-fellow in site.data.research-fellow %}
       <li class="timeline-item">

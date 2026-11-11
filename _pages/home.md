@@ -9,7 +9,7 @@ permalink: /
   <div class="container hero-grid">
     <div class="hero-text">
       <h1>{{ site.name }}</h1>
-      <p class="lead">{{ site.title }}, {{ site.institution }}</p>
+      <p class="lead">{{ site.title }}, <br> Department of Statistical Sciences "Paolo Fortunati", <br>{{ site.institution }}</p>
       <div class="actions">
         <a class="btn btn--primary" href="mailto:{{ site.email }}">Email me</a>
         {% if site.links.cv and site.links.cv != "" %}<a class="btn btn--secondary" href="{{ site.links.cv }}">Download the CV</a>{% endif %}
