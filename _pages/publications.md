@@ -121,15 +121,11 @@ document.querySelectorAll('.pub-meta').forEach(function (element) {
     )
     .replace(
       /\b(?:19|20)\d{2}\b/g,
-      function (match) {
-        if (firstYear) {
-          firstYear = false;
-          return '<strong class="pub-year">' + match + '</strong>';
-        }
-        return match;
-      }
+      '<strong class="pub-year">$&</strong>'
     );
 });
+
+
 
 document.querySelectorAll('.pub-venue').forEach(function (element) {
   element.innerHTML = element.innerHTML
@@ -138,7 +134,7 @@ document.querySelectorAll('.pub-venue').forEach(function (element) {
       '<strong class="pub-name">$&</strong>'
     )
     .replace(
-      /\b(?:19|20)\d{2}\b/g,
+      /\b(?:19|20)\d{2}\b/,
       '<strong class="pub-year">$&</strong>'
     );
 });
