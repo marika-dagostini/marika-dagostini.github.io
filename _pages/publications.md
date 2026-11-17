@@ -121,7 +121,13 @@ document.querySelectorAll('.pub-meta').forEach(function (element) {
     )
     .replace(
       /\b(?:19|20)\d{2}\b/g,
-      '<strong class="pub-year">$&</strong>'
+      function (match) {
+        if (firstYear) {
+          firstYear = false;
+          return '<strong class="pub-year">' + match + '</strong>';
+        }
+        return match;
+      }
     );
 });
 
