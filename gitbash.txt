@@ -1,0 +1,5 @@
+Git Bash
+
+cd /c/Users/marika_dago/Desktop/Documenti/academic-website/.github/workflows
+
+$ bundle exec jekyll serve

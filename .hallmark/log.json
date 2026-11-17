@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-11-11",
+    "mode": "redesign",
+    "depth": "full",
+    "scope": "site",
+    "prompt": "academic homepage of a statistics PhD candidate: papers, talks, research areas, contact",
+    "shape": "Broadsheet Front",
+    "theme": "newsprint",
+    "axes": "light/slab-serif/warm",
+    "hero": "Stage (/), Banner (inner pages)",
+    "nav": "edge-aligned bar over a double rule",
+    "footer": "colophon block",
+    "imagery": "owner's photograph (mono) and research illustrations",
+    "photos": [],
+    "entry": "none",
+    "sections": ["hero", "front page in columns + research areas", "footer"],
+    "signature": "bio set as a broadsheet front with a brick drop cap",
+    "waived": [],
+    "fingerprint": "newsprint/stage/edge-double-rule/colophon"
+  }
+]

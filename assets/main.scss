@@ -1,0 +1,13 @@
+---
+---
+/*! Hallmark · shape: Broadsheet Front · genre: editorial · theme: Newsprint (deal: manual) · redesign: full · job: listen (a publication: read the papers, write to her)
+ * hero: Stage (/), Banner (/about, /research, /publications, /talks, /allnews) · nav: edge-aligned bar over a double rule · footer: colophon block · imagery: the owner's photographs and illustrations · signature: the bio set as a broadsheet front, two ruled columns under a double rule with a brick drop cap
+ * axes: light paper / slab-serif Zilla Slab / warm brick (the site's own #a01713) · posture: restrained · contrast: pass · fold: pass · v2.0.0 */
+/*! Hallmark · pre-emit critique: P4 H4 E4 S4 R5 V4 · weakest: P, a personal academic page has little argument; leaned on the newspaper front so the bio reads reported, not decorated */
+/*! Hallmark · dropped the sidebar profile card and the hand-point icons · its photo and links moved into the home page, the news lives on /allnews at the owner's request; the icons were decoration */
+
+// The Bootstrap SCSS partials and the template's old partials stay on disk; this sheet no longer imports them.
+// Bootstrap's JS (navbar collapse) still loads from footer.html.
+@import "hallmark/tokens";
+@import "hallmark/base";
+@import "hallmark/site";

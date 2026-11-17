@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="container">
+    <hr class="rule--double">
+    <div class="footer-grid">
+      <div class="footer-mast">
+        <p class="footer-name">{{ site.name }}</p>
+        <p>{{ site.title }}<br>{{ site.institution }}</p>
+      </div>
+      <div>
+        <h2 class="footer-head">Contact</h2>
+        <ul class="footer-links">
+          <li><a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i> {{ site.email }}</a></li>
+          {% if site.links.github and site.links.github != "" %}<li><a href="{{ site.links.github }}"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></li>{% endif %}
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Links</h2>
+        <ul class="footer-links">
+          {% if site.links.linkedin and site.links.linkedin != "" %}<li><a href="{{ site.links.linkedin }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>{% endif %}
+          {% if site.links.researchgate and site.links.researchgate != "" %}<li><a href="{{ site.links.researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i> ResearchGate</a></li>{% endif %}
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright">&copy; {{ "now" | date: "%Y" }} {{ site.name | escape }}</p>
+  </div>
+</footer>
+
+<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/site.min.js" | relative_url }}"></script>
